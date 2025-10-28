@@ -23,12 +23,17 @@ class demo1 {
         System.out.println("Place: " + place);
 
         if (!name.isEmpty() && !gender.isEmpty() && !place.isEmpty() && age > 0) {
-            System.out.println("All info received!");
+            System.out.println("oh! so I know all your info 😈");
         }
 
         System.out.print("Enter a character: ");
-        char ch = sc.next().charAt(0);
-        System.out.println("The character is: " + ch);
+        String charInput = sc.next();
+        if (!charInput.isEmpty()) {
+            char ch = charInput.charAt(0);
+            System.out.println("The character is: " + ch);
+        } else {
+            System.out.println("No character was entered.");
+        }
 
         sc.close();
     }
