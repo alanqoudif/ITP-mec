@@ -11,6 +11,5 @@ class Demo4 {
 
         System.out.println("The cost is: " + rialprice);
 
-        scanner.close();
     }
 }
