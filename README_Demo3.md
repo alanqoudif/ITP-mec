@@ -19,7 +19,6 @@ flowchart TD
     D --> E[/Output: sum, average/]
     E --> F([End])
 ```
-d
 
 ### ASCII Flowchart (fallback)
 ```
@@ -45,4 +44,3 @@ javac demo3.java
 ```bash
 java demo3
 ```
-maaaaaan Thanks 
