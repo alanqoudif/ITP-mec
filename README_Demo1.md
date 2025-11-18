@@ -1,44 +1,22 @@
-# Demo1 - User Information Program / برنامج معلومات المستخدم
+# Demo1 - User Information Program
 
-## Overview / نظرة عامة
+## What it does
 
-**English**: This program collects user information (name, gender, age, place) and a character input.
+Asks for your name, gender, age, place, and a character. Then it prints everything back with a funny message.
 
-**العربية**: هذا البرنامج يجمع معلومات المستخدم (الاسم، الجنس، العمر، المكان) وإدخال حرف.
+## How to run
 
----
-
-## Commands / الأوامر
-
-### Compile / الترجمة
-
-**English:**
+Compile it:
 ```bash
 javac demo1.java
 ```
 
-**العربية:**
-```bash
-javac demo1.java
-```
-
-### Run / التشغيل
-
-**English:**
+Run it:
 ```bash
 java demo1
 ```
 
-**العربية:**
-```bash
-java demo1
-```
-
----
-
-## Example Usage / مثال الاستخدام
-
-**English:**
+## Example
 
 **Input:**
 ```
@@ -59,26 +37,3 @@ oh! so I know all your info 😈
 Enter a character: A
 The character is: A
 ```
-
-**العربية:**
-
-**المدخلات:**
-```
-Name: أحمد
-Gender: Male
-Age: 25
-Place: الرياض
-Enter a character: A
-```
-
-**النتيجة:**
-```
-Name: أحمد
-Gender: Male
-Age: 25
-Place: الرياض
-oh! so I know all your info 😈
-Enter a character: A
-The character is: A
-```
-

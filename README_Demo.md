@@ -1,44 +1,22 @@
-# Demo - Addition Program / برنامج الجمع
+# Demo - Addition Program
 
-## Overview / نظرة عامة
+## What it does
 
-**English**: This program takes two numbers as input and calculates their sum.
+Takes two numbers and adds them together. Pretty simple.
 
-**العربية**: هذا البرنامج يأخذ رقمين كمدخلات ويحسب مجموعهما.
+## How to run
 
----
-
-## Commands / الأوامر
-
-### Compile / الترجمة
-
-**English:**
+Compile it:
 ```bash
 javac demo.java
 ```
 
-**العربية:**
-```bash
-javac demo.java
-```
-
-### Run / التشغيل
-
-**English:**
+Run it:
 ```bash
 java demo
 ```
 
-**العربية:**
-```bash
-java demo
-```
-
----
-
-## Example Usage / مثال الاستخدام
-
-**English:**
+## Example
 
 **Input:**
 ```
@@ -50,17 +28,3 @@ Enter the second number: 3
 ```
 Result: 8
 ```
-
-**العربية:**
-
-**المدخلات:**
-```
-Enter the first number: 5
-Enter the second number: 3
-```
-
-**النتيجة:**
-```
-Result: 8
-```
-

@@ -1,103 +1,47 @@
 # ITP Java Demos
 
-This repository contains Java demo programs with Arabic and English command instructions.
+This repo has some Java demo programs I made.
 
-## Demos Overview
+## What's in here
 
-- **demo.java**: Addition of two numbers
-- **demo1.java**: User information collection
-- **demo2.java**: Chapter cost calculation
-- **demo3.java**: Sum and average calculation
-- **demo4.java**: Expressions calculator (e1 and e2)
+- **demo.java**: Adds two numbers together
+- **demo1.java**: Gets user info (name, gender, age, place) and a character
+- **demo2.java**: Calculates chapter cost
+- **demo3.java**: Calculates sum and average of three numbers
+- **demo4.java**: Calculates two expressions (e1 and e2)
 
----
+## How to run
 
-## Quick Commands / الأوامر السريعة
+For each demo, just compile and run:
 
-### Demo - Addition / جمع رقمين
-
-**English:**
 ```bash
 javac demo.java
 java demo
 ```
 
-**العربية:**
-```bash
-javac demo.java
-java demo
-```
-
----
-
-### Demo1 - User Info / معلومات المستخدم
-
-**English:**
 ```bash
 javac demo1.java
 java demo1
 ```
 
-**العربية:**
-```bash
-javac demo1.java
-java demo1
-```
-
----
-
-### Demo2 - Chapter Cost / حساب تكلفة الفصول
-
-**English:**
 ```bash
 javac demo2.java
 java demo2
 ```
 
-**العربية:**
-```bash
-javac demo2.java
-java demo2
-```
-
----
-
-### Demo3 - Sum & Average / المجموع والمتوسط
-
-**English:**
 ```bash
 javac demo3.java
 java demo3
 ```
 
-**العربية:**
-```bash
-javac demo3.java
-java demo3
-```
-
----
-
-### Demo4 - Expressions Calculator / حاسبة التعبيرات
-
-**English:**
 ```bash
 javac demo4.java
 java demo4
 ```
 
-**العربية:**
-```bash
-javac demo4.java
-java demo4
-```
-
----
-
-For detailed information about each demo, see the individual README files:
+For more details on each demo, check out:
 - [README_Demo.md](README_Demo.md)
 - [README_Demo1.md](README_Demo1.md)
 - [README_Demo2.md](README_Demo2.md)
 - [README_Demo3.md](README_Demo3.md)
 - [README_Demo4.md](README_Demo4.md)
-
