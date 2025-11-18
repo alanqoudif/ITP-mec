@@ -8,6 +8,7 @@ This repository contains Java demo programs with Arabic and English command inst
 - **demo1.java**: User information collection
 - **demo2.java**: Chapter cost calculation
 - **demo3.java**: Sum and average calculation
+- **demo4.java**: Expressions calculator (e1 and e2)
 
 ---
 
@@ -77,9 +78,26 @@ java demo3
 
 ---
 
+### Demo4 - Expressions Calculator / حاسبة التعبيرات
+
+**English:**
+```bash
+javac demo4.java
+java demo4
+```
+
+**العربية:**
+```bash
+javac demo4.java
+java demo4
+```
+
+---
+
 For detailed information about each demo, see the individual README files:
 - [README_Demo.md](README_Demo.md)
 - [README_Demo1.md](README_Demo1.md)
 - [README_Demo2.md](README_Demo2.md)
 - [README_Demo3.md](README_Demo3.md)
+- [README_Demo4.md](README_Demo4.md)
 
