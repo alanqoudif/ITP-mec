@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class MathematicalExpressions {
-    public static void main(String[] args) {
+    public static void main(String[] arg) {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Enter a: ");
@@ -24,8 +24,8 @@ public class MathematicalExpressions {
         
         int e2 = x + y % z * 5 - y;
         
-        System.out.println("e1 = " + e1);
-        System.out.println("e2 = " + e2);
+        System.out.println("Maaan u know that e1 is = " + e1);
+        System.out.println("Maaan u know that e2 is = " + e2);
         
     }
 }
