@@ -19,6 +19,7 @@ flowchart TD
     D --> E[/Output: sum, average/]
     E --> F([End])
 ```
+d
 
 ### ASCII Flowchart (fallback)
 ```
