@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-class demo3 {
+class SumAndAverage {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -21,3 +21,4 @@ class demo3 {
 
     }
 }
+

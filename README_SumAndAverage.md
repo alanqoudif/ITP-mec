@@ -1,4 +1,4 @@
-# Demo3 - Sum and Average Calculation
+# SumAndAverage - Sum and Average Calculation
 
 ## What it does
 
@@ -19,12 +19,12 @@ flowchart TD
 
 Compile it:
 ```bash
-javac demo3.java
+javac SumAndAverage.java
 ```
 
 Run it:
 ```bash
-java demo3
+java SumAndAverage
 ```
 
 ## Example
@@ -41,3 +41,4 @@ Enter c: 15.2
 sum = 46.0
 average = 15.3333333333
 ```
+

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.math.BigDecimal;
 
-class demo2 {
+class ChapterCostCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -16,3 +16,4 @@ class demo2 {
         sc.close();
     }
 }
+

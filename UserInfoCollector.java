@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class demo1 {
+class UserInfoCollector {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -38,3 +38,4 @@ class demo1 {
         sc.close();
     }
 }
+

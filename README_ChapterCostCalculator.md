@@ -1,4 +1,4 @@
-# Demo2 - Chapter Cost Calculation
+# ChapterCostCalculator - Chapter Cost Calculation
 
 ## What it does
 
@@ -18,12 +18,12 @@ flowchart TD
 
 Compile it:
 ```bash
-javac demo2.java
+javac ChapterCostCalculator.java
 ```
 
 Run it:
 ```bash
-java demo2
+java ChapterCostCalculator
 ```
 
 ## Example
@@ -37,3 +37,4 @@ Enter the number of chapters: 10
 ```
 The cost is: 3.0
 ```
+

@@ -4,44 +4,44 @@ This repo has some Java demo programs I made.
 
 ## What's in here
 
-- **demo.java**: Adds two numbers together
-- **demo1.java**: Gets user info (name, gender, age, place) and a character
-- **demo2.java**: Calculates chapter cost
-- **demo3.java**: Calculates sum and average of three numbers
-- **demo4.java**: Calculates two expressions (e1 and e2)
+- **AddTwoNumbers.java**: Adds two numbers together
+- **UserInfoCollector.java**: Gets user info (name, gender, age, place) and a character
+- **ChapterCostCalculator.java**: Calculates chapter cost
+- **SumAndAverage.java**: Calculates sum and average of three numbers
+- **MathematicalExpressions.java**: Calculates two expressions (e1 and e2)
 
 ## How to run
 
-For each demo, just compile and run:
+For each program, just compile and run:
 
 ```bash
-javac demo.java
-java demo
+javac AddTwoNumbers.java
+java AddTwoNumbers
 ```
 
 ```bash
-javac demo1.java
-java demo1
+javac UserInfoCollector.java
+java UserInfoCollector
 ```
 
 ```bash
-javac demo2.java
-java demo2
+javac ChapterCostCalculator.java
+java ChapterCostCalculator
 ```
 
 ```bash
-javac demo3.java
-java demo3
+javac SumAndAverage.java
+java SumAndAverage
 ```
 
 ```bash
-javac demo4.java
-java demo4
+javac MathematicalExpressions.java
+java MathematicalExpressions
 ```
 
-For more details on each demo, check out:
-- [README_Demo.md](README_Demo.md)
-- [README_Demo1.md](README_Demo1.md)
-- [README_Demo2.md](README_Demo2.md)
-- [README_Demo3.md](README_Demo3.md)
-- [README_Demo4.md](README_Demo4.md)
+For more details on each program, check out:
+- [README_AddTwoNumbers.md](README_AddTwoNumbers.md)
+- [README_UserInfoCollector.md](README_UserInfoCollector.md)
+- [README_ChapterCostCalculator.md](README_ChapterCostCalculator.md)
+- [README_SumAndAverage.md](README_SumAndAverage.md)
+- [README_MathematicalExpressions.md](README_MathematicalExpressions.md)

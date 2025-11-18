@@ -1,4 +1,4 @@
-# Demo - Addition Program
+# AddTwoNumbers - Addition Program
 
 ## What it does
 
@@ -8,12 +8,12 @@ Takes two numbers and adds them together. Pretty simple.
 
 Compile it:
 ```bash
-javac demo.java
+javac AddTwoNumbers.java
 ```
 
 Run it:
 ```bash
-java demo
+java AddTwoNumbers
 ```
 
 ## Example
@@ -28,3 +28,4 @@ Enter the second number: 3
 ```
 Result: 8
 ```
+

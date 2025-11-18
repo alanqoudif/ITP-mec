@@ -1,4 +1,4 @@
-# Demo4 - Expressions Calculator
+# MathematicalExpressions - Expressions Calculator
 
 ## What it does
 
@@ -10,12 +10,12 @@ Calculates two expressions:
 
 Compile it:
 ```bash
-javac demo4.java
+javac MathematicalExpressions.java
 ```
 
 Run it:
 ```bash
-java demo4
+java MathematicalExpressions
 ```
 
 ## Example
@@ -42,3 +42,4 @@ e2 = 1
 - Variables a, b, c, d, e1 are `double`
 - Variables x, y, z, e2 are `int`
 - Make sure (c + d) * (c - d) isn't zero or you'll get a division by zero error
+

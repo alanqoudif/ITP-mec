@@ -1,4 +1,4 @@
-# Demo1 - User Information Program
+# UserInfoCollector - User Information Program
 
 ## What it does
 
@@ -8,12 +8,12 @@ Asks for your name, gender, age, place, and a character. Then it prints everythi
 
 Compile it:
 ```bash
-javac demo1.java
+javac UserInfoCollector.java
 ```
 
 Run it:
 ```bash
-java demo1
+java UserInfoCollector
 ```
 
 ## Example
@@ -37,3 +37,4 @@ oh! so I know all your info 😈
 Enter a character: A
 The character is: A
 ```
+
