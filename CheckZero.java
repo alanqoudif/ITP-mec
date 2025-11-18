@@ -9,8 +9,10 @@ class CheckZero {
         
         if (num == 0) {
             System.out.println("You are entering a number Zero");
+        } else if (num > 0) {
+            System.out.println("You are entering a positive number");
         } else {
-            System.out.println("You are entering a number that is not Zero");
+            System.out.println("You are entering a negative number");
         }
         
     }
