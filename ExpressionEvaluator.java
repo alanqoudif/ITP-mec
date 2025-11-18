@@ -12,9 +12,7 @@ class ExpressionEvaluator {
         int c = sc.nextInt();
         
         int exp1 = (a + b) * c;
-        
         boolean exp2 = (b < c) || (b < a);
-        
         boolean exp3 = !(a < c) || (a < b);
         
         System.out.println("Maaan u know that exp1 is = " + exp1);
