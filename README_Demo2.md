@@ -1,6 +1,10 @@
-## Demo2 Overview
+# Demo2 - Chapter Cost Calculation / حساب تكلفة الفصول
 
-- **Idea**: Read the number of chapters, compute the cost in rials as 0.300 × chapters, then print the result.
+## Overview / نظرة عامة
+
+**English**: Read the number of chapters, compute the cost in rials as 0.300 × chapters, then print the result.
+
+**العربية**: قراءة عدد الفصول، حساب التكلفة بالريال كـ 0.300 × عدد الفصول، ثم طباعة النتيجة.
 
 ## Flowchart
 - **Start/End**: Oval
@@ -29,22 +33,54 @@ flowchart TD
     (End)
 ```
 
-## How to Run
-- **Compile**:
+## How to Run / كيفية التشغيل
+
+### Compile / الترجمة
+
+**English:**
 ```bash
 javac demo2.java
 ```
-- **Run**:
+
+**العربية:**
 ```bash
-java Demo4
+javac demo2.java
 ```
 
-## Example
-- **Input**:
+### Run / التشغيل
+
+**English:**
+```bash
+java demo2
+```
+
+**العربية:**
+```bash
+java demo2
+```
+
+## Example Usage / مثال الاستخدام
+
+**English:**
+
+**Input:**
 ```
 Enter the number of chapters: 10
 ```
-- **Output**:
+
+**Output:**
+```
+The cost is: 3.0
+```
+
+**العربية:**
+
+**المدخلات:**
+```
+Enter the number of chapters: 10
+```
+
+**النتيجة:**
 ```
 The cost is: 3.0
 ```
