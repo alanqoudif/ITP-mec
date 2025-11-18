@@ -26,7 +26,8 @@ public class MathematicalExpressions {
         
         System.out.println("Maaan u know that e1 is = " + e1);
         System.out.println("Maaan u know that e2 is = " + e2);
-        
+        System.out.println("SeeU next time🥲 Bye Bye");
+
     }
 }
 
