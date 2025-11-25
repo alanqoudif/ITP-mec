@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 class DayOfWeek {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner man = new Scanner(System.in);
         
         System.out.print("Please enter a number (1-7): ");
-        int day = sc.nextInt();
+        int day = man.nextInt();
         
         if (day == 1) {
             System.out.println("Friday");
