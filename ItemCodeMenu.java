@@ -4,32 +4,27 @@ class ItemCodeMenu {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        // Display the menu
-        System.out.println("Item Code\tItem Name");
-        System.out.println("c, C\t\tCoffee");
-        System.out.println("t, T\t\tTea");
-        System.out.println("j, J\t\tJuice");
-        System.out.println("l, L\t\tLaban");
-        System.out.println("others\t\tNo such code");
-        System.out.println();
+       System.out.println("Item Code \t Item Name");
+        System.out.println("c, C \t Coffee");
+       System.out.println("t, T \t Tea");
+        System.out.println("j, J \t Juice");
+  System.out.println("l, L\t\tLaban");
+       System.out.println("others \t No such code");
         
-        // Read item code from user
         System.out.print("Enter item code: ");
-        String input = sc.next();
-        char itemCode = input.charAt(0);
-        
-        // Display corresponding item name using switch statement
-        switch (itemCode) {
-            case 'c':
-            case 'C':
+        char code = sc.next().charAt(0);
+
+         switch (code) {
+     case 'c':
+          case 'C':
                 System.out.println("Coffee");
                 break;
             case 't':
-            case 'T':
+           case 'T':
                 System.out.println("Tea");
                 break;
             case 'j':
-            case 'J':
+             case 'J':
                 System.out.println("Juice");
                 break;
             case 'l':
@@ -38,10 +33,8 @@ class ItemCodeMenu {
                 break;
             default:
                 System.out.println("No such code");
-                break;
         }
         
         sc.close();
     }
 }
-
