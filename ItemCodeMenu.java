@@ -9,8 +9,7 @@ class ItemCodeMenu {
        System.out.println("t, T \t Tea");
         System.out.println("j, J \t Juice");
   System.out.println("l, L\t\tLaban");
-       System.out.println("others \t No such code");
-        
+
         System.out.print("Enter item code: ");
         char code = sc.next().charAt(0);
 
