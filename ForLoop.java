@@ -1,11 +1,20 @@
+import java.util.Scanner;
+
 class ForLoop
 {
     public static void main(String arg[])
     {
-        int i;
-        for(i = 51; i <= 100; i++)
+        Scanner sc = new Scanner(System.in);
+        int start = sc.nextInt();
+        
+        for(int i = start; i <= 100; i++)
         {
-            System.out.println(i);
+            if(i % 2 == 0)
+            {
+                System.out.println(i);
+            }
         }
+        
+        sc.close();
     }
 }
