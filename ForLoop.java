@@ -1,19 +1,26 @@
 import java.util.Scanner;
 
-class ForLoop
-{
-    public static void main(String arg[])
-    {
+public class ForLoop {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int start = sc.nextInt();
         
-        for(int i = start; i <= 100; i++)
-        {
-            if(i % 2 == 0)
-            {
-                System.out.println(i);
-            }
+        // Read the number of integers, n
+        System.out.print("Enter the number of integers (n): ");
+        int n = sc.nextInt();
+        
+        // Initialize sum to 0
+        int sum = 0;
+        
+        // Use for loop to read n integers
+        System.out.println("Enter " + n + " integers:");
+        for (int i = 0; i < n; i++) {
+            int num = sc.nextInt();
+            sum += num;
         }
+        
+        // Calculate and display the average
+        double average = (double) sum / n;
+        System.out.println("Average: " + average);
         
         sc.close();
     }
